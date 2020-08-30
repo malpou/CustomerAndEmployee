@@ -5,12 +5,7 @@ using System.Linq;
 namespace CustomerAndEmployee
 {
     class Program
-    {
-        /*
-         * - Der skal laves en liste af Customers som kan sorteres efter fx. betalingsmetode (hvad den sorteres på er valgfrit).
-         * - Der skal laves en liste af Employees som kan sorteres efter fx. medarbejder ID (hvad den sorteres på er valgfrit).
-         */
-
+    {   
         static void Main(string[] args)
         {
             List<Employee> employees = new List<Employee>
